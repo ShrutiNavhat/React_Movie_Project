@@ -8,15 +8,15 @@ function Header () {
                         <img src="logo.png" class="logo"/>
                     </div>
                     <div className="Movie_hub">
-                         <p class="ac"><b>MOVIE HUB</b></p>
+                         <p className="ac"><b>MOVIE HUB</b></p>
                     </div>
                 </div>
                 <div className="Frame">
                     <div className="Watch">
-                        <p class="text">Watch</p>
+                        <p className="text">Watch</p>
                     </div>
                     <div className="Add_movie">
-                        <p class="text">Add Movie</p>
+                        <p className="text">Add Movie</p>
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@ function Header () {
             <div className="space3"></div>
             <div className="space4">
                 <div className="Watch_text"></div>
-                 <p class="text1">Watch</p>
+                 <p className="text1">Watch</p>
             </div>
             <div className="space5"></div>
             
