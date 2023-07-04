@@ -2,6 +2,7 @@
 *{
     box-sizing:border-box;
     background-color:black;
+    color:white;
 }
 
 .row{
@@ -85,7 +86,7 @@
     width:100%;
 }
 .Watch_text{
-    width:310px;
+    width:410px;
     height:30px;
     float:left;
 }
@@ -99,24 +100,24 @@
     margin:0px;
 }
 .space5{
-    width:1817px;
+    width:100%;
     height:28px;
-    float:left;
+   
     
 }
 .data_row{
     
     width:1000px;
     height:277px;
-    border:solid 1px red;
+    border-bottom:solid 1px grey;
     margin: auto;
-    margin-bottom:12px;
+    margin-bottom:20px;
     
 }
 .movie_image{
     width:220px;
     height:255px;
-    border:solid 1px red;
+   
     float:left;
     
 }
@@ -128,7 +129,6 @@
     width:775px;
     height:255px;
     float:left;
-    border:solid 1px red;
 }
 .text2{
     color:white;
@@ -136,4 +136,48 @@
     font-size:30px;
 }
 
-
+.Action{
+    width:775px;
+    height:40px;
+}
+.like{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:left;
+}
+.rating{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:left;
+}
+.dislike{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:left;
+}
+.delete{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:right;
+}
+.footer_row{
+    width:100%;
+    height:350px;
+    border:solid 1px red;
+}
+.space7{
+    width:156px;
+    height:30px;
+    border:solid 1px red;
+}
+.movie_name{
+    margin:0px;
+}
+.All_detail{
+    width:775px;
+    height:215px;
+}
