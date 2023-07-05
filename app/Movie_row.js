@@ -1,19 +1,21 @@
 import Action_row from './Action_row.js'
 
-const Movie_row =({Movies})=>{
+const Movie_row =(props)=>{
     return (
         <>
              <div className="data_row">
                 <div className="movie_image">
+                   {props.imge} 
                 </div>
                 <div className="movie_detail">
                     <div className="All_detail">
-                        {Movies.map(item =>(
-                            <p key={item.id}>{item.name}</p>
-                         ))}
+                        {props.movie}
+                        {props.date}
+                        {props.title}
+                        {props.Description}
                     </div>
                     <Action_row/>
-                 </div>
+                </div>
              </div>
            
          </>
@@ -22,6 +24,3 @@ const Movie_row =({Movies})=>{
     )
 }
 export default  Movie_row;
-
-
-
