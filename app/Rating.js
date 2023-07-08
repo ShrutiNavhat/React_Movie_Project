@@ -1,26 +1,24 @@
-import Action_row from './Action_row.js'
+"useClient"
+import React, { useState } from 'react';
 
-const Movie_row =(props)=>{
-    return (
-        <>
-             <div className="data_row">
-                <div className="movie_image">
-                   {props.imge} 
-                </div>
-                <div className="movie_detail">
-                    <div className="All_detail">
-                        {props.movie}
-                        {props.date}
-                        {props.title}
-                        {props.Description}
-                    </div>
-                    <Action_row/>
-                </div>
-             </div>
-           
-         </>
-        
-            
-    )
-}
-export default  Movie_row;
+const LikeDislikeComponent = () => {
+  const [count, setCount] = useState(0);
+
+  const like = () => {
+    setCount(count + 1);
+  };
+
+  const dislike = () => {
+    setCount(count - 1);
+  };
+
+  return (
+    <div>
+      <button onClick={like}>like</button>
+      <button onClick={dislike}>dislike</button>
+      <p>Count: {count}</p>
+    </div>
+  );
+};
+
+export default LikeDislikeComponent;

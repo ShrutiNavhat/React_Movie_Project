@@ -1,20 +1,20 @@
 
-
-
 const Action_row =()=>{
+    
     return(
         <>
             <div className="Action">
                 <div className="like">
-                     <img src="like.png" class="imge"/>  
+                     <button><img src="like.png" class="imge"/> </button> 
                 </div>
                 <div className="rating">
+                    <h2 className="score">0</h2>
                 </div>
                 <div className="dislike">
-                     <img src="dislike.png" class="imge"/>  
+                     <button><img src="dislike.png" class="imge"/></button>  
                 </div>
                 <div className="delete">
-                     <img src="Delete.png" class="imge"/>  
+                     <button><img src="Delete.png" class="imge"/></button>  
                 </div>
             </div>
         </>

@@ -117,17 +117,12 @@
 .movie_image{
     width:220px;
     height:255px;
-   
     float:left;
     
 }
-.imge{
-    
-}
-
 .movie_detail{  
-    width:775px;
-    height:255px;
+    width:755px;
+    height:250px;
     float:left;
 }
 .text2{
@@ -141,26 +136,26 @@
     height:40px;
 }
 .like{
-    width:32px;
-    height:32px;
+    width:40px;
+    height:38px;
     margin-right:2px;
     float:left;
 }
 .rating{
-    width:32px;
-    height:32px;
+    width:40px;
+    height:38px;
     margin-right:2px;
     float:left;
 }
 .dislike{
-    width:32px;
-    height:32px;
+    width:40px;
+    height:38px;
     margin-right:2px;
     float:left;
 }
 .delete{
-    width:32px;
-    height:32px;
+    width:40px;
+    height:38px;
     margin-right:2px;
     float:right;
 }
@@ -202,4 +197,7 @@
 .open_form{
     padding:15px 0px 0px 20px;
     background:red;
+}
+.score{
+    margin:1px 2px 3px 12px;
 }
