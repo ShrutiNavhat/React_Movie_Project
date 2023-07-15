@@ -83,11 +83,8 @@ const Page = () =>{
         const newMovielist=movie.filter((items)=>id !==items.id);
         setMovie(newMovielist)      
     };
-    function handleSort(vote){
-        const newMovieData=movie.filter((sort)=>vote >sort.vote)
-        setMovie(newMovieData)
-    }
-
+    
+    
     return(
         <>
             <div className="row">
@@ -97,8 +94,6 @@ const Page = () =>{
                     key={item.id}
                     data={item}
                     onDelete={()=>handleDelete(item.id)}
-                    sorts={()=>handleSort(item.vote)}
-                    
                     
                     />
                 ))}
@@ -113,6 +108,7 @@ export default Page;
 
 
 
+  
 
 
 

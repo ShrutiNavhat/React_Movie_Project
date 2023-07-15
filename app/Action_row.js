@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 const Action_row =(props)=>{
          const [count, setCount] = useState(0);
+         props.data.vote=count;
          const like = () => {
              setCount(count + 1);
          };
@@ -14,10 +15,10 @@ const Action_row =(props)=>{
              <>
                   <div className="Action">
                       <div className="like">
-                          <button onClick={()=>{props.sorts()}}{like}><img src="like.png" /></button>
+                          <button onClick={like}><img src="like.png" /></button>
                       </div>
                       <div className="rating">
-                          <p className="score">{count}</p>
+                          <p className="score">props.rating</p>
                       </div>
                       <div className="dislike">
                           <button onClick={dislike} class="imge"><img src="dislike.png" /></button> 
