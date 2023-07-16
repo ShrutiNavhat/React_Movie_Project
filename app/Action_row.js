@@ -1,8 +1,7 @@
 "use client"
-import React, { useState } from 'react';
+import { useState } from 'react';
 const Action_row =(props)=>{
          const [count, setCount] = useState(0);
-         props.data.vote=count;
          const like = () => {
              setCount(count + 1);
          };
@@ -18,7 +17,7 @@ const Action_row =(props)=>{
                           <button onClick={like}><img src="like.png" /></button>
                       </div>
                       <div className="rating">
-                          <p className="score">props.rating</p>
+                          <p className="score">{count}</p>
                       </div>
                       <div className="dislike">
                           <button onClick={dislike} class="imge"><img src="dislike.png" /></button> 
